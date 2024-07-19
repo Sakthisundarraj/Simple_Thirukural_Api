@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/images/d7519-library-in-chennai.jpeg);
+}
+.container{
+    margin-top: 50px;
+}
+.ThirukuralSearch{
+    text-align: center;
+}
+.ThirukuralSearch input{
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+}
+.ThirukuralSearch input:focus{
+    outline: 0;
+}
+.ThirukuralSearch button{
+    height: 40px;
+    padding: 0 20px;
+    background: teal;
+    border: 2px solid sienna;
+    font-size: 18px;
+    color: hsl(0, 27%, 96%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.ThirukuralSearch button:hover{
+    background: hsl(0, 60%, 60%);
+    color: #fff;
+}
+.card{
+    border: 2px solid sienna;
+    margin-top: 30px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    background-color: #fff;
+}
+.content1{
+    /* margin-bottom: 30px; */
+}
+.content1 h3{
+    font-size: 20px;
+    margin-bottom: 14px;
+    color: teal;
+}
+.content1 ul{
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: sienna;
+}
+.content1 ul li{
+    font-size: 18px;
+    line-height: 20px;
+}
+.content1 h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: teal;
+}
+.content1 p{
+    margin-left: 40px;
+    color: sienna;
+}
+.content1 h4{
+    margin: 10px 0;
+    color: teal;
+}
+
+
+@media(max-width:576px){
+    .ThirukuralSearch button{
+        height: 40px;
+        padding: 0 10px;
+        margin: 10px 0;
+    }   
+    .card{
+        width: 100%;
+    }     
+}
